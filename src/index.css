@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .custom-bg{
+        background-color: #2B3433;
+    }
+    .text-color{
+        color: #FFFFFF;
+    }
+    .bg-color{
+        background-color: #060202;
+    }
+    .sh{
+    -webkit-box-shadow: 65px 65px 35px -18px white outset;
+    box-shadow: 45px 45px 15px -18px white outset;
+}
+    .sh-2xl{
+        -webkit-box-shadow: 7px 7px 28px;
+        box-shadow: 7px 7px 28px; 
+    }
+    .trans{
+        -webkit-transition: -webkit-transform 5s linear 0.5s;
+        transition: -webkit-transform 5s linear 0.5s;
+        transition: transform 5s linear 0.5s;
+        transition: transform 5s linear 0.5s, -webkit-transform 5s linear 0.5s;
+    }
+    .trans:hover{
+        -webkit-transform: scale(25%,0%);
+        transform: scale(45px,0px);
+    }
+}
