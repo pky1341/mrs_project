@@ -1,4 +1,4 @@
-function M_Button(){
+function M_button(){
     return(
         <>
         <section className="flex justify-center flex-wrap">
@@ -19,4 +19,4 @@ function M_Button(){
     );
 }
 
-export default M_Button;
+export default M_button;
