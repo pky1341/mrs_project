@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import M_button from './components/M_button';
